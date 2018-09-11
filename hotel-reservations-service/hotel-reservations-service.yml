@@ -1,2 +1,2 @@
 example.property: "FROM GIT - I AM IN THE DEFAULT"
-example.encrypted: "{cipher}7b4d7b319b1140a85890621656cc15e67ab4b2e2bb304302bea1278de3f01e84885ea8f04b019a1db15e82ef66d9a013"
+example.encrypted: "{cipher}c9a5b4983ea63db0c284b86f389fc7d4438bdccdf95e029f5519732c94c68879d1b7c05dfa240c5b34a995e3e5e205b21138f463f8e74c66aa8f585851877eea"

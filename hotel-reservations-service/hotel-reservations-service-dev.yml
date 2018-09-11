@@ -1,2 +1,2 @@
 example.property: "FROM GIT - I AM IN THE DEV"
-example.encrypted: "{cipher}10b4fc95ee747273e583162c13b6d3134f43a5f57421efeca0690f5c77ff9facd252af4f39bdf41919c5af1fbb5ec8f1"
+example.encrypted: "{cipher}c0cfad9106d237bd7ee8fdada2ff68d55799fb7392a6c8a3b2ae87886c6adb84070449ffcd5108212205143af021a60c0c6102f38f2f5e3a6ba9f9723b7e1ab2"
