@@ -1,2 +1,2 @@
 example.property: "FROM GIT - I AM IN THE DEV"
-example.encrypted: "02 - this will be encrypted"
+example.encrypted: "{cipher}10b4fc95ee747273e583162c13b6d3134f43a5f57421efeca0690f5c77ff9facd252af4f39bdf41919c5af1fbb5ec8f1"
