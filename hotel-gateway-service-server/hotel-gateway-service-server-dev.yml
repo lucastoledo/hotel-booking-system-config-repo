@@ -3,7 +3,7 @@ example.encrypted: "{cipher}c0cfad9106d237bd7ee8fdada2ff68d55799fb7392a6c8a3b2ae
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.hotel-reservations-service: /reservations/**
-#zuul.routes.organizationservice: /organization/**
+zuul.routes.hotel-rooms-service: /rooms/**
 #zuul.routes.licensingservice: /licensing/**
 #zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
