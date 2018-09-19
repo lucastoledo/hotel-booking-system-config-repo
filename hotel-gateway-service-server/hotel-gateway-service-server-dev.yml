@@ -1,21 +1,6 @@
 example.property: "FROM GIT - I AM IN THE DEV"
 example.encrypted: "{cipher}c0cfad9106d237bd7ee8fdada2ff68d55799fb7392a6c8a3b2ae87886c6adb84070449ffcd5108212205143af021a60c0c6102f38f2f5e3a6ba9f9723b7e1ab2"
-endpoints.routes.enabled: true
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.hotel-reservations-service: /reservations/**
 zuul.routes.hotel-rooms-service: /rooms/**
-
-#zuul.routes.licensingservice: /licensing/**
-#zuul.routes.authenticationservice: /auth/**
-#zuul.routes.licensestatic.path: /licensestatic/**
-#zuul.routes.licensestatic.url:  http://licenseservice-static:8081
-#zuul.routes.licensestatic.serviceId: licensestatic
-#zuul.routes.licensestatic.ribbon.listOfServers: http://licenseservice-static1:8081, http://licenseservice-static2:8082
-#ribbon.eureka.enabled: false
-#zuul.sensitiveHeaders: Cookie,Set-Cookie
-#zuul.debug.request: true
-#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
-#hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
-#licensingservice.ribbon.ReadTimeout: 2
-#signing.key: "345345fsdfsf5345"
