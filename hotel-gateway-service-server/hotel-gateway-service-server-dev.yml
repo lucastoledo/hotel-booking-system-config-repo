@@ -4,3 +4,5 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.hotel-reservations-service: /reservations/**
 zuul.routes.hotel-rooms-service: /rooms/**
+management.endpoints.web.exposure.include: "*"
+
