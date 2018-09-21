@@ -13,4 +13,4 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: "false"
 spring.jpa.database-platform: "org.hibernate.dialect.PostgreSQL9Dialect"
 spring.sleuth.sampler.probability: 1.0
-management.endpoints.web.exposure.include: "refresh"
+management.endpoints.web.exposure.include: "*"
