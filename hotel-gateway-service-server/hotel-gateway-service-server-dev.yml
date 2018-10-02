@@ -4,6 +4,7 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.hotel-reservations-service: /reservations/**
 zuul.routes.hotel-rooms-service: /rooms/**
+zuul.routes.hotel-authentication-service: /auth/**
 management.endpoints.web.exposure.include: "*"
 spring.sleuth.sampler.probability: 1.0
 signing.key: "345345fsdfsf5345"
