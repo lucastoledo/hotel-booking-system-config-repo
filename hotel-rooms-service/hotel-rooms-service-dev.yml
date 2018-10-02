@@ -14,3 +14,4 @@ spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: "false"
 spring.jpa.database-platform: "org.hibernate.dialect.PostgreSQL9Dialect"
 spring.sleuth.sampler.probability: 1.0
 management.endpoints.web.exposure.include: "*"
+signing.key: "345345fsdfsf5345"
